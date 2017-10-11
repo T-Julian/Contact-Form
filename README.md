@@ -33,6 +33,12 @@ The contact.php file is the PHP script that handles sending emails. This file in
 * <b>$okMessage</b> - represents the message text displayed on the web page.
 * <b>$errorMessage</b> - represents the text of the error message displayed.
 
+<h2>PHPMailer</h2>
+
+<a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> is a full-featured email sending library for PHP. 
+
+Within (<i>contact-2.php &amp; contact-2.php</i>), <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> email-sending library replaces the standard and basic PHP mail() function. 
+
 <h2>JavaScript</h2>
 
 The JavaScript within the forms handle the validation and email sending via AJAX. The <b>contact.js</b> includes:
@@ -42,5 +48,7 @@ The JavaScript within the forms handle the validation and email sending via AJAX
 * <i>type &amp; message</i> is used to contstruct the message -<br/>
 &ensp;&ensp;&ensp;-> <b>alert-danger</b> for errors.<br/>
 &ensp;&ensp;&ensp;-> <b>alert-success</b> for success.<br/>
+
+
 
 
